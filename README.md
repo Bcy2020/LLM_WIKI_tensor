@@ -1,6 +1,6 @@
 # Claude Code + Obsidian MCP 中文科研 Wiki Starter
 
-这是一套面向 **物理 / 数学 / 计算机 agent** 的项目级 Claude Code + Obsidian Wiki 启动目录。
+这是一套面向 **物理 / 数学 / 计算机 agent** 的项目级 Claude Code + Obsidian Wiki 启动目录。里面已经有了张量分析相关内容作为示例
 
 ## 这套脚手架要解决什么
 
