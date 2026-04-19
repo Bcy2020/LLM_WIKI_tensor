@@ -1,0 +1,72 @@
+{
+  "env": {
+    "WIKI_ROOT": "./wiki",
+    "WIKI_RAW_DIR": "./raw",
+    "WIKI_DOMAINS": "physics,mathematics,computer-agents"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__obsidian-mcp__list_notes",
+      "mcp__obsidian-mcp__read_note",
+      "mcp__obsidian-mcp__read_multiple_notes",
+      "mcp__obsidian-mcp__search_vault",
+      "mcp__obsidian-mcp__create_note",
+      "mcp__obsidian-mcp__update_note",
+      "mcp__obsidian-mcp__move_note",
+      "mcp__obsidian-mcp__delete_note",
+      "mcp__obsidian-mcp__manage_folder",
+      "mcp__obsidian-mcp__auto_backlink_vault",
+      "Read(./**)",
+      "Glob",
+      "Grep",
+      "WebFetch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 -X utf8 .claude/hooks/session_start.py"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 -X utf8 .claude/hooks/post_compact.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__obsidian-mcp__create_note|mcp__obsidian-mcp__update_note|mcp__obsidian-mcp__move_note|mcp__obsidian-mcp__delete_note|mcp__obsidian-mcp__manage_folder",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 -X utf8 .claude/hooks/mark_wiki_dirty.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3 -X utf8 .claude/hooks/stop_guard.py"
+          }
+        ]
+      }
+    ]
+  }
+}

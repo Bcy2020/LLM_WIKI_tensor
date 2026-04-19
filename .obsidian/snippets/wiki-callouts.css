@@ -1,0 +1,16 @@
+.callout[data-callout="contradiction"] {
+  --callout-color: 177, 77, 77;
+  --callout-icon: lucide-alert-triangle;
+}
+.callout[data-callout="gap"] {
+  --callout-color: 190, 140, 60;
+  --callout-icon: lucide-help-circle;
+}
+.callout[data-callout="key-insight"] {
+  --callout-color: 70, 120, 180;
+  --callout-icon: lucide-lightbulb;
+}
+.callout[data-callout="stale"] {
+  --callout-color: 130, 130, 130;
+  --callout-icon: lucide-clock-3;
+}

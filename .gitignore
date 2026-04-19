@@ -1,0 +1,13 @@
+# Local Claude settings / secrets
+.claude/settings.local.json
+.env
+.env.*
+.claude/state/*
+
+# Obsidian user-local noise
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# System
+.DS_Store
+Thumbs.db

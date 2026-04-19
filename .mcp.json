@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "obsidian-mcp": {
+      "args": [],
+      "command": "obsidian-mcp",
+      "env": {
+        "OBSIDIAN_API_PORT": "27123",
+        "OBSIDIAN_API_TOKEN": "29d4020d2333f09bfd1266180b90c4e3d66bd0fe19f09a25e627eab1de38feba",
+        "OBSIDIAN_VAULT_PATH": "C:/Users/Lenovo/Desktop/claude-obsidian-llm-wiki"
+      }
+    }
+  }
+}

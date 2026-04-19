@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "看完本文, 彻底理解张量(上).md": {
+      "source_path": "raw/看完本文, 彻底理解张量(上).md",
+      "hash": "011F19C2D8B003AA7D82030CDAD9E253332CBB19386FDB8367F50BC911A285AF",
+      "ingested_at": "2026-04-19",
+      "source_summary_path": "wiki/sources/彻底理解张量(上).md",
+      "pages_created": [
+        "wiki/sources/彻底理解张量(上).md",
+        "wiki/concepts/张量.md",
+        "wiki/concepts/线性空间.md",
+        "wiki/concepts/对偶空间.md",
+        "wiki/concepts/张量积.md",
+        "wiki/concepts/抽象指标.md",
+        "wiki/concepts/缩并.md",
+        "wiki/concepts/爱因斯坦求和约定.md",
+        "wiki/concepts/基变换.md",
+        "wiki/concepts/逆变与协变.md"
+      ],
+      "pages_updated": [
+        "wiki/domains/mathematics/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/log.md",
+        "wiki/hot.md"
+      ]
+    },
+    "看完本文, 彻底理解张量(下).md": {
+      "source_path": "raw/看完本文, 彻底理解张量(下).md",
+      "hash": "E86CC0C0BCB2F20F9D7B4D79C6BCC603864C3364075325ED5A953497C8128F6E",
+      "ingested_at": "2026-04-19",
+      "source_summary_path": "wiki/sources/彻底理解张量(下).md",
+      "pages_created": [
+        "wiki/sources/彻底理解张量(下).md",
+        "wiki/concepts/度规空间.md",
+        "wiki/concepts/度规张量.md",
+        "wiki/concepts/标准正交基.md",
+        "wiki/concepts/升降指标.md",
+        "wiki/concepts/伴随映射.md",
+        "wiki/concepts/内积空间.md",
+        "wiki/concepts/对称张量.md",
+        "wiki/concepts/反对称张量.md"
+      ],
+      "pages_updated": [
+        "wiki/domains/mathematics/_index.md",
+        "wiki/concepts/_index.md",
+        "wiki/sources/_index.md",
+        "wiki/log.md",
+        "wiki/hot.md"
+      ]
+    }
+  }
+}
